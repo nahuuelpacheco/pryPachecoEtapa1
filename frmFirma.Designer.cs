@@ -37,9 +37,9 @@ namespace pryPachecoEtapa1
             // 
             // pctDibujo
             // 
-            this.pctDibujo.Location = new System.Drawing.Point(24, 25);
+            this.pctDibujo.Location = new System.Drawing.Point(8, 25);
             this.pctDibujo.Name = "pctDibujo";
-            this.pctDibujo.Size = new System.Drawing.Size(394, 275);
+            this.pctDibujo.Size = new System.Drawing.Size(441, 275);
             this.pctDibujo.TabIndex = 0;
             this.pctDibujo.TabStop = false;
             this.pctDibujo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pctDibujo_MouseDown);
@@ -58,7 +58,7 @@ namespace pryPachecoEtapa1
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(325, 329);
+            this.btnGuardar.Location = new System.Drawing.Point(356, 329);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(93, 40);
             this.btnGuardar.TabIndex = 2;
@@ -71,11 +71,13 @@ namespace pryPachecoEtapa1
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(461, 407);
+            this.ClientSize = new System.Drawing.Size(461, 403);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.btnDibujar);
             this.Controls.Add(this.pctDibujo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmFirma";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Firmas";
             this.Load += new System.EventHandler(this.frmFirma_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pctDibujo)).EndInit();
